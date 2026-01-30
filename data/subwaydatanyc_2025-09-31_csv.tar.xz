@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="New York City subway data, updated daily">
+    <meta name="author" content="Subway Data NYC contributors">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway Data NYC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/stylesheet.css">
+</head>
+<body>
+
+<div id="page">
+    <div id="header">
+        <h1><a href="/">Subway Data NYC</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/explore-the-data">Explore the data</a></li>
+                <li><a href="/programmatic-access">Programmatic access</a></li>
+                <li><a href="/data-schema">Data schema</a></li>
+                <li><a href="/how-it-works">How it works</a></li>
+                <li><a href="https://github.com/jamespfennell/subwaydata.nyc">GitHub</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="main">
+        
+
+<h2>404: Page not found</h2>
+
+
+    </div>
+</div>
+
+</body>
+</html>
