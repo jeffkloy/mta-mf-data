@@ -1,6 +1,9 @@
 #!/bin/bash
-# Download data from Nov 1, 2025 to Jan 20, 2026
-start_date="2025-11-01"
+# Download subway data from Aug 1, 2025 to Jan 20, 2026
+
+mkdir -p data
+
+start_date="2025-08-01"
 end_date="2026-01-20"
 current="$start_date"
 
@@ -15,4 +18,6 @@ while [[ "$current" < "$end_date" ]] || [[ "$current" == "$end_date" ]]; do
     fi
     current=$(date -j -v+1d -f "%Y-%m-%d" "$current" "+%Y-%m-%d")
 done
+
 echo "Download complete!"
+echo "To extract: cd data && for f in *.tar.xz; do tar -xf \"\$f\"; done"

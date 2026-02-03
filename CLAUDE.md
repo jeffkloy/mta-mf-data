@@ -17,9 +17,7 @@ python3 analyze_headways_over_20.py   # System-wide headway analysis
 python3 average_headways.py           # Headway averages by time period/direction
 
 # Download data (macOS date command syntax)
-./download_data.sh          # Nov 2025 - Jan 2026
-./download_sept_oct.sh      # Sep - Oct 2025
-./download_aug_jan20.sh     # Aug 2025 + Jan 20, 2026
+./download_data.sh          # Aug 1, 2025 - Jan 20, 2026
 
 # Extract downloaded archives
 cd data && for f in *.tar.xz; do tar -xf "$f"; done
